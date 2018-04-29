@@ -11,12 +11,17 @@
   },
   {
     "id": 2,
-    "name": "Julie",
-    "picture": "images/julie.JPG"
+    "name": "Zack",
+    "picture": "images/zack.png"
   },
   {
     "id": 3,
     "name": "Quest",
     "picture": "images/quest.JPG"
+  },
+  {
+    "id": 4,
+    "name": "Lunar Sundance",
+    "picture": "images/lunar.JPG"
   }
 ]
