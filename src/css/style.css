@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'metta-iconfont';
+    src:  url('../fonts/metta-iconfont.eot');
+    src:  url('../fonts/metta-iconfont.eot') format('embedded-opentype'),
+        url('../fonts/metta-iconfont.ttf') format('truetype'),
+        url('../fonts/metta-iconfont.woff') format('woff'),
+        url('../fonts/metta-iconfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'metta-iconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: baseline;
+    font-size: 0.8em;
+    margin-right: 0.1em;
+}
+
+body {
+    margin: 0;
+}
+main {
+    padding: 2em;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.money {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.event-details {
+    text-align: left;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.event-details li:before{
+    content: "T";
+    font-family: 'metta-iconfont' !important;
+    margin-right: 0.3em;
+    vertical-align: middle;
+}
+.event-details li#event-location:before{
+    content: "L";
+}
+
+h1 {
+    font-weight: 900;
+    color: #ffff00;
+    font-size: 4em;
+    text-align: center;
+}
+.overlay{
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.25em;
+}
+.header img.logo{
+  width: 100px;
+}
+body.home, .header{
+  background-image: url("https://www.nps.gov/common/uploads/banner_image/ner/homepage/EC803A56-1DD8-B71B-0BD7EE282E4EAECD.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 1200px;
+}
+html {
+    height: 100%
+}
+h1{
+  color: #fff;
+  padding: 10px 20px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 82px;
+}
+@media (max-width: 576px) {
+  .hidden-xs-down{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 60px;
+  }
+  .overlay{
+    margin: 10px;
+  }
+}
+h1 span{
+  text-transform: uppercase;
+  font-size: .5em;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+main {
+    text-align: center;
+}
+a.button {
+    background-color: black;
+    font-size: 1.5em;
+    color: #fff;
+    border-color: #000;
+}
+
+h1 a:hover, h1 a, h1 a:focus{
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+}
+th, td {
+  text-align: left;
+  padding: 4px;
+}
+
+.cf:before, .cf:after {
+    content: " "; display: table;
+}
+
+.cf:after {
+    clear: both;
+}

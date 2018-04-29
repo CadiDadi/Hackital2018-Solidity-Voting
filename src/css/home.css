@@ -1,0 +1,40 @@
+header {
+    background-color: #0000ff;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 5em;
+    margin: 0;
+}
+
+#transactions {
+    width: 100%;
+    text-align: left;
+    margin: 2em 0;
+    
+    display: block;
+    max-height: 200px;
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+    
+    font-size: 0.9em; 
+}
+#transactions th, tbody {
+    width: 100%;
+}
+
+#transactions tr td:first-child, #transactions tr th:first-child {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+    font-weight: bold;
+}
+
+#transactions th {
+    background-color: #0000ff;
+    color: white;
+}
